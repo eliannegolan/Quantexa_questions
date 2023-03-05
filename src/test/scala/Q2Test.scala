@@ -5,9 +5,9 @@ class Q2Test extends AnyFunSuite {
   test("Q2.FreqFlyerstoCSV") {
     Q2.FreqFlyerstoCSV("Q2_ans.csv")
 
-    // read the output file and check if it contains the expected data
+
     val output = scala.io.Source.fromFile("Q2_ans.csv").mkString
-    assert(output.contains("Passenger ID,Number of Flights,First Name,Last Name"))
+    assert(output.contains("Passenger ID,Number of Flights,First Name,Last Name"))//check headers print correctly
   }
 
   test("NumberFreqFlyers") {

@@ -28,7 +28,7 @@ class Q1Test extends AnyFunSuite with Matchers {
         |10,76
         |11,75
         |12,94
-        |""".stripMargin
+        |""".stripMargin //counted this manually by calculating number of flightIds per month
   }
 
 
